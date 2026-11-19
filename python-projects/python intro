@@ -1,0 +1,119 @@
+print("Hello World!")
+
+# this is a comment
+
+'''
+this is for a lot of comments
+'''
+
+
+x = 100
+print(x)
+x=5.5
+print(x)
+
+x=100
+y=10
+z=x/y
+print(z)
+z=int(z)
+print(z)
+
+result = x//y
+print(result)
+
+min_val=min(10,2)
+#print(mix_val)
+raised=pow(2,4)
+print(raised)
+raised=2**4
+print(raised)
+
+if x<0:
+    print("x < 0")
+    print("next line")
+
+if x<0 and y<0:
+    print("both less than 0")
+
+if x<0 or y<0:
+    print("at least one is less than 0")
+
+if x<0:
+    print("x is less than 0")
+elif x<0:
+    print("x is greater than 0")
+else:
+    print(0)
+
+counter=0
+while counter<10:
+    print(counter)
+    counter+=1
+
+for i in range(5):
+    print(i)
+
+for i in range(2,5):
+    print(i)
+
+lst=[1,2,3,4,5]
+for i in range(1, len(lst)):
+    print(i, lst[i])
+
+#backwards through a lst
+for i in range(len(lst)-1, -1, -1):
+    print(i, lst[i])
+
+#if you want to go through all values
+for i, val in enumerate(lst):
+    print(i, val)
+
+#iterate and assign each value to a variable
+for val in lst:
+    print(val)
+
+
+
+for i in range(1, 21):
+    if i % 3 == 0:
+        print(i)
+
+sum = 0
+count =0
+
+while i <= 50:
+    if i % 2 == 0:
+        sum += i
+    count += 1
+
+
+
+
+lst=[2,4,6,8,10]
+def swap(lst, x, y):
+    temp = lst[x]
+    lst[x] = lst[y]
+    lst[y] = temp
+swap(lst)
+print(lst)
+
+def swap(lst):
+    tmp=lst[0]
+    lst[0]=lst[len(lst)-1]
+    lst[len(lst)-1]=tmp
+
+
+#strings
+subtotal = 14.73
+subtotal_statement = "subtotal is str(subtotal)"
+
+
+full_name = "Annika Barbara Burr"
+first_name = full_name[:6]
+middle_name = full_name[7:14]
+last_name = full_name[15:19]
+first_initial = full_name[0]
+last_initial = full_name[-1]
+print(first_name, middle_name, last_name, first_initial, last_initial)
+
