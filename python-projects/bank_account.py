@@ -1,5 +1,7 @@
 # Declare the class BankAccount
 # Python convention is to capitalize first letter in each word of class name
+#test comment
+
 class BankAccount:
     # __init__ method is like the constructor in Java
     # instance variales declared in the __init__ method are global and MUST
